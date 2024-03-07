@@ -62,9 +62,9 @@ export const GridModel2 = ({ images }: ArrayImages) => {
                 </span>
               </button>
             </DialogTrigger>
-            <DialogContent className="flex size-[40rem] flex-col items-center justify-center bg-zinc-50 px-8">
+            <DialogContent className="flex h-[30rem] w-[20rem] flex-col items-center justify-center bg-zinc-50 px-8 md:size-[40rem]">
               <img
-                className="size-[30rem] overflow-hidden rounded-md object-cover"
+                className="h-[26rem] w-[16rem] overflow-hidden rounded-md object-cover md:size-[30rem]"
                 loading="lazy"
                 src={image.src}
                 alt="Random"
